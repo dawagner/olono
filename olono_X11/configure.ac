@@ -2,6 +2,9 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_INIT([OloNO], [0.4], [ail@isep.fr])
 
+dnl Definition
+sinclude(ac-helpers/ac_define_dir.m4)
+
 dnl Non GNU, but very handy :
 AC_DEFINE_DIR([LIBDIR],     [libdir],     [Where the libs are placed to.])
 AC_DEFINE_DIR([DATADIR],    [datadir],    [Where data are placed to.])
