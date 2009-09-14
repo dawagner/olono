@@ -1,0 +1,41 @@
+OloNO README . OloNO is Not an Othello
+--------------------------------------
+this looks like an FAQ but it isn't ...
+
++ Where does OloNO come from ?
+------------------------------
+It started as a student project in ISEP 2008-2009©
+
+
++ What is OloNo ?
+-----------------
+Despite the retro acronym and all the Magritte's painting
+OloNO is an Othello game.
+
+
++ I just recieved the package, how do I run it ?
+------------------------------------------------
+I guess you are willing to compile and install OloNO.
+You will find basic instructions about the process in the
+INSTALL file.
+But before you do so, you might want to consider this :
+let's say you just received this package, you may proceed
+to the install.
+
+To cut a long story short :
+  $ ./configure --prefix=YOURDIR
+  $ make
+  $ make install
+
+NOTE : if YOURDIR doesn't belong to your user, then you will
+need to run make install as root. (using su, sudo, ...)
+
+
++ What is AUTO.sh
+-----------------
+AUTO.sh is a little homemade script that runs the autotools.
+You don't need that if you just want to build and execute the program.
+See section "How do I run it ?"
+
+
+Have a nice day.

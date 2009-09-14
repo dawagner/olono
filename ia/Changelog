@@ -1,0 +1,12 @@
+Version 0.1
+	Written in Python
+	Quite working referee
+	
+Version 0.2
+	Rewritten in C
+	Working referee
+
+Version 0.3
+	Can finish a match and name the winner
+	Implementation des arguments
+
